@@ -1,0 +1,42 @@
+*{
+   margin:0;
+   box-sizing: border-box;
+}
+
+#dad{
+   background-color: red;
+   height: 600px;
+}
+.text{
+   padding:150px;
+   text-align: center;
+   color: white;
+}
+#text1{
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+#text2{
+   font-size: 50px;
+   margin-bottom: 150px;
+}
+
+#bottom{
+   text-align: center;
+}
+
+.bottom1{
+   text-transform: uppercase;
+   text-decoration: none ;
+   background-color: white;
+   color: black;
+   padding: 5px;
+   margin-right: 5px;
+   border: solid;
+   transition: all 0.2s;
+   display: inline-block;
+}
+.bottom1:hover{
+   background-color: aqua;
+   transform: rotate(360deg);
+}
